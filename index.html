@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Greeting</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+      <h2>“I hope your new company knows how lucky they are to have you!”</h2>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="script1.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelector(".container"), {
+        max: 25,
+        speed: 400
+      });
+      
+      //It also supports NodeList
+      VanillaTilt.init(document.querySelectorAll(".container"));
+    </script>
+  </body>
+</html> 
+ 
